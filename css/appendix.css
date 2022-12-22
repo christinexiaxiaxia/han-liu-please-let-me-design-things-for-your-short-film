@@ -48,6 +48,45 @@ body {
 }
 
 
+.please {
+	font-size: 3em;
+	letter-spacing: -0.02em;
+	line-height: 1em;
+	text-align: left;
+	/*padding-top: 15%;*/
+}
+
+a.please {
+	font-size: 3rem;
+	letter-spacing: -0.02em;
+	line-height: 1em;
+	text-align: left;
+
+	text-decoration: none;
+}
+
+.click {
+	font-size: 3rem;
+	letter-spacing: -0.02em;
+	line-height: 1em;
+	text-align: left;
+
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.1em;
+
+	cursor: alias;
+}
+
+.serious {
+	color: #ff5588;
+	font-size: 3rem;
+	letter-spacing: -0.02em;
+	line-height: 1em;
+	text-align: left;
+}
+
+
 
 
 
@@ -63,11 +102,35 @@ body {
 	padding: 2rem;
 }
 
+.florence-wrapper {
+	position: absolute;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	width: calc(100vw - 4rem);
+	height: auto;
+	top: 0;
+	left: 0;
+	padding: 2rem;
+}
+
 .item {
 	/*width: calc(25vw - 4rem);*/
 	height: 20rem;
 	margin: auto;
-	padding: 2rem;
+	padding: 4rem;
+}
+
+.florence-wide {
+	height: 30rem;
+	margin: auto;
+	padding: 4rem;
+}
+
+.florence-tall {
+	height: 40rem;
+	margin: auto;
+	padding: 4rem;
 }
 
 img {
